@@ -32,12 +32,12 @@ class ProfileViewController: UIViewController {
     @IBAction func updateProfile(_ sender: Any) {
         //  checkFields
         if checkFields(user: userName.text , mail: userMail.text , password: userPassword.text, location: userLocation.text ){
-            self.presentAlert(withTitle: "Congrates", message: "Your profile has been upadte!")
+            self.presentAlert(withTitle: "Congrats", message: "Your profile has been upadted!")
          
             
                 }
         else {
-            self.presentAlert(withTitle: "Wrong!", message: "Fill all the fields")
+            self.presentAlert(withTitle: "Wrong!", message: "Please make sure all fields are filled in correctly")
         }
     }
     
