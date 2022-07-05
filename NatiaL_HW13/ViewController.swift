@@ -9,9 +9,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var signUpBtn: UIButton!
+    @IBOutlet weak var logInBtn: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        signUpBtn.layer.cornerRadius = 10
+        logInBtn.layer.cornerRadius = 10
+        signUpBtn.layer.borderWidth = 1
+        signUpBtn.layer.borderColor = UIColor.black.cgColor
     }
 
 
