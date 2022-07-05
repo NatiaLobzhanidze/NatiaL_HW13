@@ -13,6 +13,8 @@
 		60680E362874320200B83001 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60680E342874320200B83001 /* Main.storyboard */; };
 		60680E382874320200B83001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60680E372874320200B83001 /* Assets.xcassets */; };
 		60680E3B2874320200B83001 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60680E392874320200B83001 /* LaunchScreen.storyboard */; };
+		60680E47287461BF00B83001 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60680E46287461BF00B83001 /* ProfileViewController.swift */; };
+		60680E492874641500B83001 /* Extensions and functions .swift in Sources */ = {isa = PBXBuildFile; fileRef = 60680E482874641500B83001 /* Extensions and functions .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		60680E372874320200B83001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60680E3A2874320200B83001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60680E3C2874320200B83001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60680E46287461BF00B83001 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		60680E482874641500B83001 /* Extensions and functions .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions and functions .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				60680E2E2874320200B83001 /* AppDelegate.swift */,
 				60680E302874320200B83001 /* SceneDelegate.swift */,
+				60680E482874641500B83001 /* Extensions and functions .swift */,
 				60680E322874320200B83001 /* ViewController.swift */,
+				60680E46287461BF00B83001 /* ProfileViewController.swift */,
 				60680E342874320200B83001 /* Main.storyboard */,
 				60680E372874320200B83001 /* Assets.xcassets */,
 				60680E392874320200B83001 /* LaunchScreen.storyboard */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				60680E332874320200B83001 /* ViewController.swift in Sources */,
+				60680E492874641500B83001 /* Extensions and functions .swift in Sources */,
 				60680E2F2874320200B83001 /* AppDelegate.swift in Sources */,
+				60680E47287461BF00B83001 /* ProfileViewController.swift in Sources */,
 				60680E312874320200B83001 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
