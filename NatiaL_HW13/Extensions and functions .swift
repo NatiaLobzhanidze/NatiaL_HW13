@@ -12,7 +12,6 @@ import UIKit
 
 func checkFields(user name: String?, mail: String?, password: String?, location: String? ) -> Bool {
     guard let userName = name, let usermail = mail, let userpassword = password, let userlocation = location else { return false }
-    
     if userName == "" || usermail == "" || userpassword == "" || userlocation == "" {
         return false
     } else {

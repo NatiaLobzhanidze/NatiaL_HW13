@@ -16,11 +16,13 @@ class ProfileViewController: UIViewController {
     @IBOutlet weak var userMail: UILabel!
     @IBOutlet weak var userPassword: UILabel!
     @IBOutlet weak var userLocation: UITextField!
+    @IBOutlet weak var updateBtn: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         profImage.layer.cornerRadius = 90
         uploadImage.layer.cornerRadius = 25
+        updateBtn.layer.cornerRadius = 15
         
         
     }
